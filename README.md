@@ -7,5 +7,7 @@ Developer website for Sudhindra Saxena's apps (GitHub Pages user site → https:
 | `/` | Developer home (listed as the website in the Play listings) |
 | `/app-ads.txt` | AdMob authorised sellers — one line per publisher ID, covers all apps |
 | `/qr-reader/privacy/` | QR Reader privacy policy (source: `qr_code_reader/docs/privacy-policy/index.html`) |
+| `/pennywhere/privacy/` | Pennywhere privacy policy (source: `expense_management/docs/website/pennywhere/privacy/index.html`) |
+| `/pennywhere/delete-account/` | Pennywhere account deletion (Play Data safety URL; source: `expense_management/docs/website/pennywhere/delete-account/index.html`) |
 
 URLs are used in Play listings and inside the apps: **never move or rename them.**

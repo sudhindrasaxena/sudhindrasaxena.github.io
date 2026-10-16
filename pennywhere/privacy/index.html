@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pennywhere — Privacy policy</title>
+<style>
+  :root { --bg: #FFF7EC; --ink: #2B1D14; --muted: #6B5A4E; --teal: #0B5E63; --line: #E8D9C4; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1C1A17; --ink: #F3EBDD; --muted: #BFB3A4; --teal: #7FC8C2; --line: #3A342D; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { color: var(--teal); margin-bottom: 4px; }
+  h2 { margin-top: 32px; border-top: 1px solid var(--line); padding-top: 20px; font-size: 1.2rem; }
+  .muted { color: var(--muted); }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px; border-bottom: 1px solid var(--line); }
+  a { color: var(--teal); }
+</style>
+</head>
+<body>
+<main>
+<h1>Pennywhere — Privacy policy</h1>
+<p class="muted">App: Pennywhere: Expense Tracker (Android, package com.sudhindra.expenses) · Developer: Sudhindra Saxena ·
+Effective 16 October 2026</p>
+
+<p>Pennywhere helps you and your household see where your money goes. It is built so that we can't read your
+expenses: they are encrypted on your phone before they are stored. This policy explains exactly what the app
+collects, why, who can see it, and how to delete it.</p>
+
+<h2>1. What we collect and why</h2>
+<table>
+  <tr><th>Data</th><th>Why</th><th>Who can read it</th></tr>
+  <tr><td>Your name and email address</td><td>To create and sign in to your account, show your name to your household
+    partner, and reply to your messages</td><td>You, your household members (name), and the developer</td></tr>
+  <tr><td>Account ID (a random identifier from Firebase Authentication)</td><td>To link your account to your data</td><td>The app and the developer</td></tr>
+  <tr><td>Your expenses, budgets, categories, notes and bill items</td><td>To show your spending, charts and insights</td>
+    <td><b>Only you and the household members you invite.</b> They are end-to-end encrypted on your phone; the developer
+    and Google cannot read them.</td></tr>
+  <tr><td>Premium purchases (which household has Premium, which plan, until when)</td><td>To turn Premium on for your household</td>
+    <td>The app and the developer. Payment is handled by Google Play; we never see card, UPI or bank details.</td></tr>
+  <tr><td>Messages you send through Help &amp; feedback, with your name, email, app version and phone model</td>
+    <td>To answer and fix problems</td><td>You and the developer</td></tr>
+  <tr><td>A one-way hash (SHA-256) of your email address</td><td>To give each person only one free trial</td>
+    <td>The app's server. It can't be turned back into your email.</td></tr>
+  <tr><td>App settings (theme, currency, privacy mode, scan count)</td><td>To keep your preferences</td><td>You</td></tr>
+</table>
+
+<h2>2. What stays on your phone</h2>
+<ul>
+  <li><b>Receipts and bills</b> you scan or upload are read on your phone. The photos and PDFs are not uploaded.</li>
+  <li><b>Voice input</b> uses your phone's own speech recognition. The app does not record or keep audio.
+    (If your phone uses Google's speech service, Google's privacy policy applies to that.)</li>
+  <li><b>Your encryption keys</b> are kept in your phone's secure key store. Your recovery code is shown to you once;
+    we keep it only on your phone so you can see it again after unlocking with your phone's lock.</li>
+  <li><b>App lock</b> uses your phone's fingerprint/face/PIN; we never receive biometric data.</li>
+</ul>
+
+<h2>3. What we don't do</h2>
+<ul>
+  <li>No ads, no advertising ID, no analytics or tracking SDKs.</li>
+  <li>We don't sell your data, and we don't share it with anyone for their own purposes.</li>
+  <li>We don't access your location, contacts, photos library, SMS or other apps.</li>
+</ul>
+
+<h2>4. Service providers</h2>
+<p>The app runs on Google services that process data only to provide the service to us:</p>
+<ul>
+  <li><b>Firebase</b> (Google): Authentication, Cloud Firestore database and Cloud Functions, hosted in Mumbai, India
+    (asia-south1). <a href="https://firebase.google.com/support/privacy">Firebase privacy</a></li>
+  <li><b>Google Sign-In</b>, if you choose to sign in with Google.</li>
+  <li><b>Google Play Billing</b> for purchases. <a href="https://policies.google.com/privacy">Google privacy policy</a></li>
+  <li><b>ML Kit</b> (Google) reads receipts on your phone; images are not sent to Google by the app.</li>
+</ul>
+<p>Data is encrypted in transit (HTTPS/TLS). Your expense data is additionally end-to-end encrypted.</p>
+
+<h2>5. Sharing inside your household</h2>
+<p>Household expenses are shared with the people you invite (with a one-time code that you approve). Personal expenses
+are visible only to you. Anyone you approve into your household can read the household's expenses.</p>
+
+<h2>6. How long we keep data</h2>
+<ul>
+  <li>Individual expenses: this month and the previous month; after that, only monthly totals (and grocery amounts),
+    kept for up to 24 months — all still end-to-end encrypted.</li>
+  <li>Account and profile: until you delete your account.</li>
+  <li>Help &amp; feedback messages: until resolved, then deleted on request.</li>
+  <li>Purchase records: as long as needed for your Premium and for Google Play's records.</li>
+  <li>The one-way email hash for the free trial is kept after account deletion, to prevent repeat trials.</li>
+</ul>
+
+<h2>7. Deleting your data</h2>
+<p>In the app: <b>profile → Delete my account and data</b>. This deletes your profile, your personal expenses and your
+keys; you leave your household, and the household and its data are deleted when its last member leaves. You can also
+email us to ask for deletion. See <a href="../delete-account/">how to delete your account</a>.</p>
+
+<h2>8. Children</h2>
+<p>Pennywhere is meant for adults (18+) and is not directed at children.</p>
+
+<h2>9. Your rights</h2>
+<p>You can see and correct your data in the app, export your recovery backup, and delete your account at any time.
+Under India's Digital Personal Data Protection Act, 2023 and similar laws, you can ask us to access, correct or erase
+your personal data, or raise a grievance, by emailing us.</p>
+
+<h2>10. Changes</h2>
+<p>If this policy changes, we'll update this page and the date above; important changes will also be shown in the app.</p>
+
+<h2>11. Contact</h2>
+<p>Email: <a href="mailto:sudhindraks.dev@gmail.com">sudhindraks.dev@gmail.com</a> · In the app: profile → Help &amp; feedback.</p>
+</main>
+</body>
+</html>
